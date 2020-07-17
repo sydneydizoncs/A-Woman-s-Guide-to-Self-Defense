@@ -1,0 +1,53 @@
+h1 {
+  text-align: left;
+  color: 	#efe9dc;
+  letter-spacing: 1px;
+   font-size: 20px; 
+  margin-left: 20px;
+}
+
+h2 {
+  color: #DB7093;
+}
+
+p3 {
+  color: #DB7093;
+}
+
+#script {
+  color: #43d6b9ff;
+}
+
+  
+  .action-list-container {
+  width: 80%;
+  padding: 35px;
+  margin: 5%;
+  flex-grow: 1;
+  background-color: #ffc0cb;
+}
+
+#checklist {
+  text-align: left;
+  background-color: #ffeeee;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-color: #ffc0cb;
+}
+
+#checklist-header {
+  text-align: center;
+  color: 	#142943;
+}
+
+
+
+#instructions {
+  font: 14px "Roboto", sans-serif;
+  text-align: center;
+  font-style: italic;
+  color: 	#142943;
+}
+

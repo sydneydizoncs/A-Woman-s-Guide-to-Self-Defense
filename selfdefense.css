@@ -1,0 +1,160 @@
+h1 {
+  text-align: left;
+  color: 	#efe9dc;
+  letter-spacing: 1px;
+   font-size: 20px; 
+  margin-left: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #ffc0cb;
+  font-size: 35px;
+}
+
+p {
+  text-align: left;
+  color: #ffc0cb;
+  font-size: 18px;
+  margin: 3%;
+}
+
+ul2 {
+  color:#FFC0CB;
+  text-align: left;
+}
+
+.main-message {
+  background-image: url("https://i.pinimg.com/originals/f1/13/f2/f113f2bb68d50a0a81f45a7ae174f87e.jpg");
+  background-attachment: fixed;
+}
+
+#script {
+  color: #43d6b9ff;
+}
+
+  
+  .action-list-container {
+  width: 80%;
+  padding: 35px;
+  margin: 5%;
+  flex-grow: 1;
+  background-color: #ffc0cb;
+}
+
+#checklist {
+  text-align: center;
+  background-color: #ffeeee;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-color: #ffc0cb;
+}
+
+#checklist-header {
+  text-align: center;
+  color: 	#142943;
+}
+
+
+
+#instructions {
+  font: 14px "Roboto", sans-serif;
+  text-align: center;
+  font-style: italic;
+  color: 	#142943;
+}
+
+#my-list {
+  text-align: center;
+  padding: 10px 0 0 0;
+  margin: 0;
+  font-size: 10pt;
+}
+
+#my-list li {
+  cursor: pointer;
+  padding-top: 8px;
+  padding-right: 30px;
+  padding-bottom: 8px;
+  padding-left: 35px;
+  position: relative;
+  list-style-type: none;
+  transition: 0.2s;
+  width: 85%;
+  color: black;
+}
+
+#my-list li::before {
+  content: "";
+  position: absolute;
+  border-color: #007883;
+  border-style: solid;
+  border-width: 2px;
+
+
+  top: 15px;
+  left: 13px;
+  height: 10px;
+  width: 10px;
+
+  
+  .flex-container {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: center;
+  align-items: center; 
+
+  padding: 5px;
+
+ 
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 40%;
+}
+}
+
+#my-list li:hover{ 
+  background: #f3f3f3;
+  color: #142943;
+}
+
+#my-list li:hover::before {
+  text-align: center;
+  border-color: #142943;
+  border-style: solid;
+}
+
+#my-list li.all-done {
+  text-decoration: line-through;
+  color: #ff7777;
+}
+
+#my-list li.all-done::before {
+  content: "";
+  position: absolute;
+  border-color: #ff8089;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 5px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+
+  #list-container {
+    border-radius: 15px;
+    padding: 20px 20px 40px 40px;
+  }
+
+  .left-container {
+    
+    width: 50%;
+    margin-right: 10%;
+  }
+}
